@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+7.times do |n|
+Email.create(object: "Pourquoi?", body: "J'ai choisi la methode *.times do* pour generer les emails parce que je suis un feneant!!!"  )
+end

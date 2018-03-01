@@ -1,0 +1,18 @@
+$( document ).ready(function() {
+
+$("#email_object<%=@email.id%>").on("click", function () {
+	$("#email_body<%=@email.id%>").fadeIn();
+	$("#email_object<%=@email.id%>").css({'font-weight': '400'});
+	$("#email_object<%=@email.id%> #button").hide();
+	$("#email_object<%=@email.id%>").css({'background-color': '#7FFF00', 'color': '#006400'});
+
+}).click();
+
+$("#email_object<%=@email.id%>").one("click", function () {
+
+	$("#email_object<%=@email.id%>").append("<p><i>  Lu </i></p>");
+
+}).click();
+
+
+});

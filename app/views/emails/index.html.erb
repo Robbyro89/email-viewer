@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Liste des Emails</h2>
+<br>
+<div class="container-fluid">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Objet</th>
+        <th>Contenu</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @emails.each do |email| %>
+        <tr id="email<%= email.id %>">
+          <td class="liste" id= "email_object<%=email.id%>"><%= email.object %>
+	  	      <div id="button">
+	  	        <%= link_to "Voir", email, method: :get, remote: true, class:"btn btn-outline", id:"show" %>
+	  	      </div>
+	        </td>
+          <td id="email_body<%=email.id%>" style="display:none">
+		         <strong>Objet du mail : <%= email.object %></strong>
+		         <br>Contenu du mail : <%= email.body %><br>
+      	     <%= link_to "Supprimer", email, method: :delete, remote: true, data: { confirm: 'Are you sure ?'}, class: "btn btn-outline", id:"delete" %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<br>
+<div class="container">
+  <%= link_to 'Page d Accueil', root_path, class:"btn btn-outline", id:"home" %>
+</div>

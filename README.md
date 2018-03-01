@@ -1,24 +1,12 @@
-# README
+# README de Email-viewer
+___
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+J'ai rencontrer quelques petits soucis que je n'ai pas su resoudre:
+* Lorsqu'on li un mail, la mention *Lu* apparait 2 ou 3 fois a la suite.
+* Lorsqu'on un autre mail, le premier ne se cache plus.
+* Pour supprimer un mail, il faut cliquer 2 fois.
+* Sinon ca fonctionne bien...
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Voici le lien Heroku:
+https://email-viewer-rob.herokuapp.com/

@@ -1,0 +1,276 @@
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: #1a2a6c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Page Home */
+.container {
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+h1 {
+  margin-top: 70px;
+  padding-right: 20px;
+  color: white;
+  /*Glow*/
+  text-shadow: 0 0 10px white,
+               0 0 18px  white,
+               0 0 25px  white,
+               0 0 40px  white,
+               0 0 60px  white,
+               0 0 80px  white,
+               0 0 100px white,
+               0 0 150px white;
+ -webkit-animation: neonAnimation 1s ease-in-out infinite alternate;
+ -moz-animation: neonAnimation 1s ease-in-out infinite alternate;
+ animation: neonAnimation 1s ease-in-out infinite alternate;
+}
+
+
+  /*Webkit prefix*/
+  @-webkit-keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+  /*Moz prefix*/
+  @-moz-keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+  /*No prefix*/
+  @keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 322px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 150px;
+  font-size: 7em;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 8px;
+  color: blue;
+  &:hover {
+   background-color: blue;
+   border-color: white;
+   color: white;
+ }
+}
+
+/* Page Index */
+.table {
+  border: 2px solid white;
+  color: white;
+}
+
+h2 {
+  padding-left: 50px;
+  color: white;
+  /*Glow*/
+  text-shadow: 0 0 10px white,
+               0 0 18px  white,
+               0 0 25px  white,
+               0 0 40px  white,
+               0 0 60px  white,
+               0 0 80px  white,
+               0 0 100px white,
+               0 0 150px white;
+ -webkit-animation: neonAnimation 1s ease-in-out infinite alternate;
+ -moz-animation: neonAnimation 1s ease-in-out infinite alternate;
+ animation: neonAnimation 1s ease-in-out infinite alternate;
+}
+
+
+  /*Webkit prefix*/
+  @-webkit-keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+  /*Moz prefix*/
+  @-moz-keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+  /*No prefix*/
+  @keyframes neonAnimation {
+    from {
+    text-shadow: 0 0 10px white,
+                 0 0 18px  white,
+                 0 0 25px  white,
+                 0 0 40px  white,
+                 0 0 60px  white,
+                 0 0 80px  white,
+                 0 0 100px white,
+                 0 0 150px white;
+               }
+       to {
+       text-shadow: 0 0 5px white,
+                    0 0 7px white,
+                    0 0 10px white,
+                    0 0 15px white,
+                    0 0 20px white,
+                    0 0 30px white,
+                    0 0 40px white,
+                    0 0 60px white;
+    }
+  }
+
+
+#show {
+  width: 100px;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  &:hover {
+    background-color: white;
+    border-color: blue;
+    color: blue;
+  }
+}
+
+#delete {
+  width: 100px;
+  background-color: red;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  &:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+  }
+}
+
+#home {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  &:hover {
+    background-color: white;
+    border-color: green;
+    color: green;
+  }
+}
